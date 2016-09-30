@@ -1,0 +1,39 @@
+body {
+    background-color: cornsilk;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    width: 980px;
+    margin: 0 10px;
+}
+table {
+    color: black;
+}
+form {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 18px;
+}
+input {
+    border-radius: 8px;
+    margin: 5px;
+}
+label {
+    display: block;
+}
+a{
+    text-align: center;
+    width: 10%;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    margin-top: 8px;
+}
+a:hover {
+    color: blue;
+}
+.info{
+    margin: auto;
+    width: 15%;
+}

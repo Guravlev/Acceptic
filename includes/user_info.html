@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal page</title>
+    <link href="includes/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <table class="admin-table" border = '1'>
+            <tr>
+                <td>Имя</td>
+                <td>email</td>
+            </tr>
+            <tr>
+                {%for item in user%}
+                    <td>{{item.name}}</td>
+                    <td>{{item.email}}</td>
+                {%endfor%}
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
