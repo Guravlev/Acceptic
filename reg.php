@@ -32,4 +32,4 @@ if (!isset($_SESSION['name'])){
     $templ = $twig->loadTemplate('reg_form.html');
     echo $templ->render(array());
 }
-//asdasdasda
+//qweqweqwe123123Sa
