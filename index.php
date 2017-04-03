@@ -1,7 +1,7 @@
 <?php
 include_once ('login.php');
 
-//qweqwe
+
 require_once("includes/db.php");
 require_once("model/func.php");
 
