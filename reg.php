@@ -32,9 +32,3 @@ if (!isset($_SESSION['name'])){
     $templ = $twig->loadTemplate('reg_form.html');
     echo $templ->render(array());
 }
-<<<<<<< HEAD
-//123123123
-=======
-//asdasdasd
-// asdasd
->>>>>>> 6870b163ebff4f39e32fe8f96fc7bf7096930f6f
