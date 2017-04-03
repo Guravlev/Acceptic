@@ -32,3 +32,5 @@ if (!isset($_SESSION['name'])){
     $templ = $twig->loadTemplate('reg_form.html');
     echo $templ->render(array());
 }
+//asdasdasd
+// asdasd
