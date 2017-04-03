@@ -1,7 +1,7 @@
 <?php
 include_once ('login.php');
 
-111
+
 require_once("includes/db.php");
 require_once("model/func.php");
 
@@ -12,3 +12,4 @@ if(isset($_SESSION['name'])){
 }
 
 
+gdrgdrg
